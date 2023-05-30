@@ -1,0 +1,144 @@
+body{
+    background-color: #ececec;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.login-form, .contenedor, .register-form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.login-form, .register-form h1{
+    text-align: center;
+    color: #142d4c;
+    font-size: 28px;
+    padding: 70px 0 10px 0;
+}
+
+.login-form input[type='password'],
+.login-form input[type='text']{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 15px;
+    background-color: #9fd3c7;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.btn-login:hover, .btn-login:active{
+    color: #fff;
+    background-color: #2e937c;
+}
+
+.btn-register{
+    width: 100%;
+    padding: 15px;
+    background-color: #385170;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+    margin-top: 15px;
+    border-radius: 5px;
+    /* Apariencia de button para un 'a' */
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.btn-register:hover, .btn-register:active{
+    color: #fff;
+    background-color: #142d4c;
+}
+
+
+.register-form input[type='password'],
+.register-form input[type='text']{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.select-css{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    padding: .4em 1.4em .3em .8em;
+    width: 400px;
+    height: 50px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+
+.btn-cancel{
+    width: 300px;
+    padding: 15px;
+    background-color: #ffb5b5;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+     /* Apariencia de button para un 'a' */
+     -webkit-appearance: button;
+     -moz-appearance: button;
+     appearance: button;
+     text-decoration: none;
+}
+
+.btn-save{
+    width: 300px;
+    padding: 15px;
+    background-color: #9fd3c7;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.btn-cancel:hover, .btn-cancel:active{
+    color: #fff;
+    background-color: #f76b8a;
+}
+
+.btn-save:hover, .btn-save:active{
+    color: #fff;
+    background-color: #385170;
+}

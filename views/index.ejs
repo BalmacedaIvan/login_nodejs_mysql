@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+    <!-- CSS ref-->
+    <link rel="stylesheet" href="resources/css/style.css">
+
+    <!-- Google Font: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <h1>BIENVENIDO</h1>
+
+    
+
+    <% if(login){ %>
+        <h2>El usuario conectado es: <strong><%= name %></strong> </h2>
+        <a href="logout" class="a-loggin">Logout</a>
+    <% }else{ %>
+        <h2><strong><%= name %></strong></h2>
+        <a href="login" class="a-login">Ir al login</a>
+    <% } %>
+
+    
+</body>
+</html>
